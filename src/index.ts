@@ -13,7 +13,7 @@ export default class ResizeObserverLite {
         this.handler(getSize(entries[0].target));
       });
     } else {
-      this.erd = elementResizeDetectorMaker({strategy: 'scroll'});
+      this.erd = elementResizeDetectorMaker({strategy: 'object'});
     }
   }
 

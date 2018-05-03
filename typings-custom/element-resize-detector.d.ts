@@ -5,7 +5,7 @@ declare module 'element-resize-detector' {
     }
 
     interface ElementResizeDetectorMakerOptions {
-      strategy: 'scroll';
+      strategy: 'object';
     }
 
     interface ElementResizeDetectorInstance {
